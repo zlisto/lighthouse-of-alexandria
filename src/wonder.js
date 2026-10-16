@@ -90,7 +90,7 @@ Some of these, possibly from the lighthouse, have been lifted out and put on dis
     sunColor: '#ffbf80',
     sunIntensity: 1.4,
   },
-  speed: { walk: 6, run: 11 },
+  speed: { walk: 12, run: 20 },
   bound: 140,
   spawn: { x: 0, z: 52, yaw: 0 },
   portal: { x: -3, z: 60, rot: Math.PI, href: HUB, spawn: 'by_lighthouse_of_alexandria' },
