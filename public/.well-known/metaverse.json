@@ -4,7 +4,10 @@
   "description": "The island of Pharos at Alexandria, where a three-tiered lighthouse over 100 m tall guided ships with a fire at its top. Pharobubu the lightkeeper tells its story.",
   "spawns": {
     "default": "On the causeway to Pharos, facing the lighthouse",
-    "from_square": "In front of the portal back to Metaverse Square, facing into the world"
+    "from_square": "In front of the portal back to Metaverse Square, facing into the world",
+    "from_colossus_of_rhodes": "Arriving from Colossus, in front of the portal plaza",
+    "to_great_pyramid": "In front of the portal to Great Pyramid",
+    "from_great_pyramid": "Arriving from Great Pyramid, in front of the portal plaza"
   },
   "portals": [
     {
@@ -13,6 +16,13 @@
       "href": "https://zlisto.github.io/hub_world/",
       "spawn": "by_lighthouse_of_alexandria",
       "where": "A glowing pink doorway near where you arrive"
+    },
+    {
+      "id": "to_great_pyramid",
+      "label": "Great Pyramid",
+      "href": "https://zlisto.github.io/great-pyramid-of-giza/",
+      "spawn": "from_lighthouse_of_alexandria",
+      "where": "A tour doorway beside the portal to Metaverse Square (next stop · tour)"
     }
   ]
 }
