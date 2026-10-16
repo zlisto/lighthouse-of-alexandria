@@ -1,0 +1,18 @@
+{
+  "protocol": "mvw/0.1",
+  "name": "Lighthouse of Alexandria",
+  "description": "The island of Pharos at Alexandria, where a three-tiered lighthouse over 100 m tall guided ships with a fire at its top. Pharobubu the lightkeeper tells its story.",
+  "spawns": {
+    "default": "On the causeway to Pharos, facing the lighthouse",
+    "from_square": "In front of the portal back to Metaverse Square, facing into the world"
+  },
+  "portals": [
+    {
+      "id": "to_square",
+      "label": "Metaverse Square",
+      "href": "https://zlisto.github.io/hub_world/",
+      "spawn": "by_lighthouse_of_alexandria",
+      "where": "A glowing pink doorway near where you arrive"
+    }
+  ]
+}
